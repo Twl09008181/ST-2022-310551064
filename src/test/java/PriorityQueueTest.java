@@ -70,7 +70,7 @@ public class PriorityQueueTest {
             PriorityQueue<String> test = new PriorityQueue<String>();
             test.iterator().next();
         });
-        String expMsg = "java.util.NoSuchElementException";
+        String expMsg = "ava.util.NoSuchElementException";
         String actualMsg = exception.toString();
         assertEquals(expMsg,actualMsg);
     }
