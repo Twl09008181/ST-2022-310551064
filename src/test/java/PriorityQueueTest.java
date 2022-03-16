@@ -24,7 +24,8 @@ public class PriorityQueueTest {
                 Arguments.of(new int[]{5,7,1,2},new int[]{1,2,5,7}),
                 Arguments.of(new int[]{5,9,1,4},new int[]{1,4,5,9}),
                 Arguments.of(new int[] {1,2,3,4},new int[] {1,2,3,4}),
-                Arguments.of(new int[] {1,10,3,9},new int[] {1,3,9,10})
+                Arguments.of(new int[] {1,10,3,9},new int[] {1,3,9,10}),
+                Arguments.of(new int[] {1,10,8,9},new int[] {1,3,8,9})
         );
     }
     @MethodSource("Provider")
